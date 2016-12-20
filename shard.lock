@@ -1,5 +1,9 @@
 version: 1.0
 shards:
+  expect:
+    github: dukex/expect.cr
+    commit: 17c31a0f42815cd914a630852bb2ee0da6a39dc0
+
   kemal:
     github: kemalcr/kemal
     commit: ac8ec0a07b5929dc1656006a135e08a2a2732f5e
@@ -7,6 +11,10 @@ shards:
   kilt:
     github: jeromegn/kilt
     version: 0.3.3
+
+  meok_log:
+    github: meoklog/meok_log
+    commit: 76bfe28084af17b203ff9ee3128f409e6f2f6c0b
 
   multipart:
     github: RX14/multipart.cr

@@ -12,6 +12,9 @@ dependencies:
   kemal:
     github: kemalcr/kemal
     branch: master
+  meok_log:
+    github: meoklog/meok_log
+    branch: master
 
 crystal: 0.20.1
 
