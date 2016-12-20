@@ -1,0 +1,18 @@
+name: meok_log_api
+version: 0.1.0
+
+authors:
+  -  meoklog <https://github/meoklog>
+
+targets:
+  meok_log_api:
+    main: src/meok_log_api.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    branch: master
+
+crystal: 0.20.1
+
+license: MIT
